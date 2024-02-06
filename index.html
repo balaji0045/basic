@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"  />
+  
+</head>
+<body>
+  <div class="mainpage">
+
+    <nav>
+      <img src="logo.png" alt="" id="logo">
+      
+      <ul>
+        <li><a href="">HOME</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">COntact us</a></li>
+        <li><a href="">Help!</a></li>
+      </ul>
+      
+  </nav>
+  <section>
+    
+    <form action="" name="myform" id="myform">
+      <h1> Login Form</h1>
+      <div class="frm">
+
+        <label for="username">USERNAME :</label>
+        <input type="text"  name="username" id="username" onkeydown="validate()" onfocus="color()"><span id="userspan"></span><br>
+        
+        <label for="password">PASSWORD :</label>
+          <input type="password"  name="password" onclick="checkpass()" id="pass1" ><span id="passspan1"></span><br>
+          
+          <label for="confirmpassword">CONFIRM PASSWORD :</label>
+          <input type="password"  name="confirmpassword" oninput="passvalidate()"><span id="passspan"></span><br>
+          
+          <input type="button" name="Submit" id="btn" value="Submit"   >
+        </div>
+        </form>
+  
+      </section>
+  
+         <footer>
+                  <div class="icons">
+                  <a href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                 <a href="http://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                 <a href="http://www.github.com"><i class="fa-brands fa-github"></i></a>
+                 <a href="http://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                  </div>
+          </footer>
+    </div>
+   
+   <script src="index.js"></script>
+    </body>
+    </html>
+   

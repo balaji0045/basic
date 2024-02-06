@@ -1,0 +1,139 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.mainpage{
+  background-image: url(b.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+ 
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+#logo{
+  width: 200px;
+  height: 50px;
+
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50%;
+  align-items: center;
+ 
+  
+}
+ul li {
+  list-style: none;
+
+  width: 120px;
+  height: 60px;
+
+  font-size: 2em;
+  /* background-color:#6180f1; */
+  border-radius:20px;
+  flex-wrap: wrap;
+  text-align: center;
+ 
+  
+
+}
+ul li:hover{
+  background-color: rgb(21, 52, 231);
+  width: 130px;
+  transition:0.5s linear;
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  text-transform: uppercase;
+
+}
+section{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 50%;
+  align-items: center;
+  /* margin-left: 20%; */
+  /* margin-top: 10%; */
+  position: relative;
+  left: 20%;
+  top: 40px;
+  padding: 100px;
+}
+section  form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+section form h1{
+  position: absolute;
+  top: 10px;
+left: 40%;
+ 
+}
+.frm{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: small;
+  font-family: 'Courier New', Courier, monospace;
+}
+.frm input{
+  width: 600px;
+  height: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  outline: none;
+  color: black;
+  padding: 8px;
+
+}
+.frm #btn{
+  background-color: aqua;
+  height: 30px;
+}
+.frm label{
+  font-weight: 800;
+}
+ footer{
+  width: 100vw;
+  height: 5%;
+  display: flex;
+  flex-direction:row;
+ 
+ 
+ }
+ .icons{
+ display: flex;
+ gap:5px;
+ align-items: center;
+ justify-content: space-evenly;
+  position: absolute;
+   bottom: 2px;
+  /* left:40%; */
+  background-color: rgb(41, 43, 41);
+  width: 100vw;
+ }
+ footer .icons a{
+  color: rgb(221, 218, 218);
+  font-size: large;
+  font-weight: 600;
+  font-size: 36px;
+  padding: 10px;
+  
+ }
+ footer .icons a:hover{
+color:rgb(43, 187, 231);
+ }
